@@ -19,6 +19,7 @@
 		5298FCEA16A7A6D80034C789 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5298FCE816A7A6D80034C789 /* MainStoryboard_iPhone.storyboard */; };
 		5298FCED16A7A6D80034C789 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5298FCEB16A7A6D80034C789 /* MainStoryboard_iPad.storyboard */; };
 		5298FCF016A7A6D80034C789 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5298FCEF16A7A6D80034C789 /* ViewController.m */; };
+		5298FCFB16A7A8390034C789 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5298FCFA16A7A8390034C789 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		5298FCEC16A7A6D80034C789 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		5298FCEE16A7A6D80034C789 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5298FCEF16A7A6D80034C789 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5298FCFA16A7A8390034C789 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5298FCFB16A7A8390034C789 /* MediaPlayer.framework in Frameworks */,
 				5298FCD116A7A6D80034C789 /* UIKit.framework in Frameworks */,
 				5298FCD316A7A6D80034C789 /* Foundation.framework in Frameworks */,
 				5298FCD516A7A6D80034C789 /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +61,7 @@
 		5298FCC116A7A6D80034C789 = {
 			isa = PBXGroup;
 			children = (
+				5298FCFA16A7A8390034C789 /* MediaPlayer.framework */,
 				5298FCD616A7A6D80034C789 /* LiveStreamTest */,
 				5298FCCF16A7A6D80034C789 /* Frameworks */,
 				5298FCCD16A7A6D80034C789 /* Products */,
